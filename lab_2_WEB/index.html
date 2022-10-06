@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Блочная верстка в HTML5</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@500&family=Lato:ital,wght@0,400;0,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+
+        body {
+            position: relative;
+            background: #F5F5F5;
+            color: #000000;
+            font-family: Ubuntu;
+            font-size: 20px;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+        header {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            border-bottom: 1px dashed #aaa;
+        }
+
+        .header_text {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        aside {
+            background: #E9E7E7;
+            display: inline-block;
+            max-width: 330px;
+            padding: 45px;
+            height: initial;
+            background-color: lightblue;
+        }
+
+        nav {
+
+            height: inherit;
+            background: #C2CEFC;
+            width: 150px;
+
+        }
+
+        ul {
+            display: inline-block;
+            padding: 0;
+
+        }
+
+        li {
+            list-style-type: none;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 28px;
+            color: #000000;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #333;
+            font-family: 'Lato', sans-serif;
+            margin-bottom: 15px;
+
+        }
+
+        .content {
+            display: flex;
+            height: 100%;
+        }
+
+        main {
+            background-color: #fff;
+            margin-left: 170px;
+            margin-right: 170px;
+            display: inline-block;
+        }
+
+        footer {
+            overflow: hidden;
+            height: 131px;
+            background: #28376F;
+
+        }
+
+        .footer_text {
+            margin-top: 30px;
+            text-align: center;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 20.68px;
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="header_text">Lorem</h1>
+        <h3 style="margin-left: 80px;" class="header_text">ipsum</h3>
+    </header>
+
+    <div class="content">
+        <aside style="float: left;border-right: 22px solid #fcfffc;">
+            <nav>
+                <ul>
+                    <li>Menu Item 1</li>
+                    <li>Menu Item 2</li>
+                    <li>Menu Item 3</li>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Etiam viverra purus non lorem molestie iaculis. Integer porttitor vulputate diam et venenatis. Nunc
+                tempor
+                eleifend erat quis efficitur.
+                Integer porttitor faucibus cursus. Pellentesque hendrerit mollis tortor ac tempus. Nunc in diam
+                consequat
+                quam facilisis condimentum eu et sem. Fusce pretium tortor tincidunt viverra convallis. Aliquam eu dolor
+                sit
+                amet odio condimentum vehicula. Vestibulum et fringilla tellus.
+                Aliquam fermentum at nunc non tincidunt. Donec sollicitudin ultricies nunc vel gravida.</p>
+            <p>Nullam nunc neque, vehicula quis pellentesque eget, congue et ex. Ut ac tempor tortor. Etiam porttitor,
+                turpis sed iaculis ullamcorper, nisl magna posuere odio, at semper risus purus euismod libero.
+                Duis blandit fringilla elit. Proin at nisi hendrerit, laoreet lorem at, eleifend lacus.
+                Pellentesque viverra non enim nec tristique. Aliquam suscipit eros nec ante pharetra ultrices. Praesent
+                et
+                suscipit lacus. Vestibulum tincidunt vel ante et vestibulum.
+                Aliquam vulputate justo eget malesuada viverra. Mauris mollis nibh sed mauris accumsan convallis.
+                Praesent
+                mi erat, elementum ut consectetur sed, mattis et justo. Cras dictum nibh at justo varius, id commodo
+                lacus
+                porttitor.
+                Integer non ligula tortor.</p>
+            <p>Vivamus ultrices risus sed aliquet congue. Etiam eu nisi ex. Duis tincidunt viverra lorem, in molestie
+                nibh
+                suscipit sed.
+                Curabitur suscipit lacinia ligula sit amet aliquet. Vivamus tincidunt quam mattis lorem commodo
+                consectetur.
+                Proin pretium lectus leo. Pellentesque eleifend tortor at felis euismod placerat.</p>
+            <p>Pellentesque a magna a est accumsan venenatis in eu justo. Ut consectetur lectus diam, sed faucibus elit
+                mattis et. Quisque placerat diam vel elit dapibus auctor. Aliquam erat volutpat. Suspendisse consectetur
+                imperdiet diam, at varius velit laoreet ut. Cras tincidunt facilisis faucibus. Quisque fermentum
+                suscipit ex
+                ac venenatis. Aliquam id orci ut turpis finibus tristique. Integer quis justo fringilla, ultricies
+                ligula
+                sed, congue libero. Fusce commodo malesuada massa, ac venenatis metus vehicula ac. Curabitur laoreet
+                nulla
+                non elit interdum, nec pharetra quam iaculis. Nunc at est ac lacus consequat sollicitudin et ac sapien.
+                Phasellus nec porta libero. Donec lobortis dignissim lorem, eget bibendum libero porta sed.</p>
+            <p>Mauris pharetra posuere arcu, a aliquam neque ullamcorper eget. Phasellus ac nulla et turpis lacinia
+                tempus.
+                Aenean dapibus dictum nisi, vitae vestibulum ex malesuada quis. Ut sem arcu, euismod eu tempus quis,
+                semper
+                eu odio. Nullam tempor mi urna, in dictum nibh consequat vitae. Pellentesque pretium dui vitae aliquam
+                imperdiet. Proin sit amet molestie lectus. In non magna at purus aliquam venenatis in ac arcu. Proin
+                aliquet
+                aliquam augue a ultricies.</p>
+        </main>
+        <aside style="float: right;border-left: 22px solid #fcfffc;">
+            <nav>
+                <ul>
+                    <li>Menu Item 1</li>
+                    <li>Menu Item 2</li>
+                    <li>Menu Item 3</li>
+                </ul>
+            </nav>
+        </aside>
+    </div>
+    <footer>
+        <div class="footer_text">
+            Максимoва Владислава &copy; 2022</div>
+    </footer>
+</body>
+
+</html>

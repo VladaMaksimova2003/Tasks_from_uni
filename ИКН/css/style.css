@@ -1,0 +1,157 @@
+body {
+   background: #F5F5F5;
+   color: #000000;
+   font-family: Ubuntu;
+   font-size: 16px;
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   width: 100%;
+}
+
+header {
+   position: relative;
+   background: #FFB44E;
+   width: 100%;
+   height: 120px;
+}
+
+.header-row {
+   display: flex;
+   height: inherit;
+   padding-left: 41px;
+   align-items: center;
+
+}
+
+.sign {
+   background: #4C64BA;
+   border-radius: 50%;
+   height: 5em;
+   width: 5em;
+}
+
+h1 {
+   padding-left: 193px;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 46px;
+   color: #FFFFFF;
+}
+
+nav {
+   width: 100%;
+   height: 50px;
+   position: absolute;
+   height: 54px;
+   left: 0px;
+   top: 120px;
+   background: #C2CEFC;
+}
+
+ul {
+   display: flex;
+   column-gap: 124px;
+}
+
+li {
+   list-style-type: none;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 28px;
+   color: #000000;
+}
+
+.content {
+   display: flex;
+   overflow-x: hidden;
+   padding: 54px 0 0px;
+
+}
+
+aside {
+   background: #E9E7E7;
+   display: inline-block;
+   max-width: 330px;
+   padding: 45px;
+}
+
+.aside_block {
+   display: inline-block;
+}
+
+.aside_block_title {
+   padding-right: 104px;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 28px;
+   padding: 0;
+   margin: 0;
+}
+
+.aside_block_text {
+   background: #D9D9D9;
+   margin-top: 16px;
+   margin-bottom: 16px;
+   max-width: 341px;
+   max-height: 153px;
+}
+
+.aside_block-text {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;
+   padding: 15px 20px;
+   color: #000000;
+}
+
+.main_content {
+   padding-left: 87px;
+   padding-top: 36px;
+   width: 60%;
+}
+
+.main_img {
+   width: 100%;
+}
+
+.main_text {
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 27.58px;
+   padding: 18px 0;
+}
+
+.main_cross {
+   margin-bottom: 40px;
+}
+
+footer {
+   position: relative;
+   overflow: hidden;
+   height: 131px;
+   background: #28376F;
+}
+
+.footer-row {
+   display: flex;
+   height: inherit;
+   align-items: center;
+   column-gap: 560px;
+}
+
+.footer_text {
+   padding-left: 53px;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 20.68px;
+   color: #FFFFFF;
+}
+
+.footer_logo {
+   padding-right: 42px;
+}

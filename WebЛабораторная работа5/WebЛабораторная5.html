@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      table {
+         border-collapse: collapse;
+         border-spacing: 0;
+      }
+
+      td {
+         padding: 10px 20px;
+         border: 1px solid #000;
+      }
+
+      .firstform td {
+         padding: 0;
+         border: none;
+      }
+   </style>
+   <script src="WebЛабораторная работа5.js"></script>
+
+</head>
+
+<body onload="searchGrade()">
+   <form name="firstform" class="firstform" action="#" onsubmit="return validateForm();">
+      <table width="200px">
+         <tr>
+            <td>Сторона 1</td>
+            <td><input name="number1" type="number" placeholder="Введите целое число"></td>
+         </tr>
+         <tr>
+            <td>Сторона 2</td>
+            <td><input name="number2" type="number" placeholder="Введите целое число"></td>
+         </tr>
+         <tr>
+            <td>Сторона 3</td>
+            <td><input name="number3" type="number" placeholder="Введите целое число"></td>
+         </tr>
+         <tr>
+            <td colspan="1"><input type="submit" value="Проверить треугольник!"></td>
+         </tr>
+      </table>
+   </form>
+   <div id="myTable"></div>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <title>Оформление заказа</title>
+   <style>
+      .wrapper table {
+         margin-top: 10px;
+         border-collapse: collapse;
+         max-width: 600px;
+         width: 100%;
+      }
+
+      .wrapper td {
+         border: 1px solid #888;
+      }
+
+      .wrapper {
+         height: 100%;
+         background: #fff;
+      }
+
+      html,
+      body {
+         height: 100%;
+         background: #FFEFD5;
+      }
+      .wrap{
+         margin: 0px 40px;
+      }
+      .knopki{
+         margin-top: 20px;
+         margin-bottom: 40px;
+      }
+      .stroki{
+         margin-right: 5px;
+         margin-top: 10px;
+      }
+      .btn{
+         margin: 5px;
+      }
+      @media(max-width:450px) {
+         .wrap{
+         margin: 0px 5px;
+         }
+         .stroki{
+         width: 100%;
+      }
+      }
+      @media(max-width:750px) {
+         .wrapper table {
+         width: 100%;
+      }
+      }
+
+   </style>
+</head>
+
+<body>
+   <div class="wrapper container-sm" id="table">
+      <div class="wrap">
+         <h1>Оформление заказа</h1>
+         <form action="" name="myForm">
+            <input type="text" placeholder="Товар" value="" class="stroki"/>
+            <input type="number" placeholder="Стоимость" value="" class="stroki"/>
+            <div class="knopki">
+               <input type="button" value="Расчитать" id="button" class="btn btn-outline-warning" />
+               <input type="submit" value="Добавить" id="submit" class="btn btn-outline-danger" />
+            </div>
+         </form>
+         <table>
+            <tr>
+               <th>Товар</th>
+               <th>Стоимость</th>
+               <th>Действие </th>
+            </tr>
+            <h5>Общая сумма: </h5>
+            <span id="total">0</span>
+         </table>
+         <div class="knopki">
+         <button type="submit" class="btn btn-primary">Подтвердить заказ</button>
+      </div>
+      </div>
+   </div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+   <script src="Лабораторная работа №6.js"></script>
+
+</body>
+
+</html>
